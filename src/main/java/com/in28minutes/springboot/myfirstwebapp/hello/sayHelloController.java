@@ -21,6 +21,7 @@ public class sayHelloController {
 	@RequestMapping("say-hello-html") //when you hit the url say-hello it will return "Hello what are you doing today!"
 	@ResponseBody  //Without this we will get error when we hit the url because spring expects return as String directly but not the statement. 
 	//But @ResponseBody returns the statement as is to be displayed on the browser from the return statement.
+	//For testing git
 	public String sayHelloHtml()
 	{
 		//Writing code with html as below is really difficult
